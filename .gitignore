@@ -1,0 +1,7 @@
+venv/
+uploads/
+tokens.txt
+tokens.yxt
+file_map.txt
+__pycache__/
+*.pyc
