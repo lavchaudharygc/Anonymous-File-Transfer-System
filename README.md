@@ -1,6 +1,4 @@
-# Anonymous-File-Transfer-System
-Zero-Knowledge Secure File Transfer Platform with Client-Side Encryption, Token-Based Access Control, Tor Integration, and Automatic File Expiration.
-
+SecureDropX
 Zero-Knowledge Secure File Transfer Platform
 
 SecureDropX is a cybersecurity research project demonstrating how Operational Security (OPSEC), client-side encryption, and anonymous file sharing can be combined into a secure file transfer system.
@@ -53,7 +51,6 @@ Benefits:
 No predictable file paths
 Improved confidentiality
 Architecture
-
 User Browser
       │
       ▼
@@ -67,7 +64,6 @@ Encrypted Storage
       │
       ▼
 Authorized Retrieval
-
 Security Model
 Server Knows
 File UUID
@@ -91,7 +87,7 @@ Tor Hidden Services
 Linux
 Installation
 Clone Repository
-git clone https://github.com/lavchaudharygc/Anonymous-File-Transfer-System.git
+git clone https://github.com/USERNAME/SecureDropX.git
 cd SecureDropX
 Create Virtual Environment
 python3 -m venv venv
@@ -114,3 +110,27 @@ Cybersecurity Researcher | Cybercrime Investigator | Security Engineer
 
 Founder — GCS Islet
 
+📄 requirements.txt
+
+Create:
+
+Flask
+📄 .gitignore
+
+Create:
+
+venv/
+__pycache__/
+uploads/
+tokens.txt
+file_map.txt
+*.pyc
+
+This is very important because:
+
+❌ Never upload:
+
+tokens.txt
+uploads/
+encryption keys
+investigation data
