@@ -87,7 +87,7 @@ Tor Hidden Services
 Linux
 Installation
 Clone Repository
-git clone https://github.com/USERNAME/SecureDropX.git
+git clone https://github.com/lavchaudharygc/Anonymous-File-Transfer-System.git
 cd SecureDropX
 Create Virtual Environment
 python3 -m venv venv
